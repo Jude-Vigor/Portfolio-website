@@ -171,6 +171,7 @@ nav .container {
     display: flex;
     align-items: center;
     gap: 50px;
+    
 }
 
 .about-text {
@@ -181,6 +182,8 @@ nav .container {
     margin-bottom: 20px;
     font-size: 1.1rem;
     line-height: 1.8;
+    
+    
 }
 
 .about-image {
@@ -195,6 +198,15 @@ nav .container {
     background-color: var(--light-color);
     border-radius: 10px;
     border: 5px solid var(--primary-color);
+}
+
+.custom-image {
+    width: 340px;
+    height: 340px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scaleX(-1); /* Flips image left-to-right */
+    
 }
 
 /* Skills Section */
@@ -252,7 +264,8 @@ nav .container {
 }
 
 .project-image {
-    height: 200px;
+    height: 195px;
+    width: 370px;
     background-color: #ddd;
 }
 
